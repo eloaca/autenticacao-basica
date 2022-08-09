@@ -1,6 +1,6 @@
-package com.ginacuida.auth.rs.v1.init
+package com.eloaca.autenticacaoBasica.rs.v1.init
 
-import com.ginacuida.auth.service.UsersService
+import com.eloaca.autenticacaoBasica.service.UsersService
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 

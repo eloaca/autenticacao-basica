@@ -1,6 +1,6 @@
-package com.ginacuida.auth.service
+package com.eloaca.autenticacaoBasica.service
 
-import com.ginacuida.auth.config.security.model.entity.Users
+import com.eloaca.autenticacaoBasica.config.security.model.entity.Users
 
 interface UsersService {
 

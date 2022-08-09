@@ -1,4 +1,4 @@
-package com.ginacuida.auth.config.security.model.entity
+package com.eloaca.autenticacaoBasica.config.security.model.entity
 
 import javax.persistence.Column
 import javax.persistence.Entity

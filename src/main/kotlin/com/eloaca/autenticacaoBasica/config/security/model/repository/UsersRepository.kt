@@ -1,6 +1,6 @@
-package com.ginacuida.auth.config.security.model.repository
+package com.eloaca.autenticacaoBasica.config.security.model.repository
 
-import com.ginacuida.auth.config.security.model.entity.Users
+import com.eloaca.autenticacaoBasica.config.security.model.entity.Users
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 import org.springframework.stereotype.Repository

@@ -1,4 +1,4 @@
-package com.ginacuida.auth
+package com.eloaca.autenticacaoBasica
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

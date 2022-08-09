@@ -1,4 +1,4 @@
-package com.ginacuida.auth.config.security.model.enums
+package com.eloaca.autenticacaoBasica.config.security.model.enums
 
 object EPerfil {
 

@@ -1,6 +1,6 @@
-package com.ginacuida.auth.config.security
+package com.eloaca.autenticacaoBasica.config.security
 
-import com.ginacuida.auth.config.SecurityDataBaseService
+import com.eloaca.autenticacaoBasica.config.SecurityDataBaseService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.HttpMethod

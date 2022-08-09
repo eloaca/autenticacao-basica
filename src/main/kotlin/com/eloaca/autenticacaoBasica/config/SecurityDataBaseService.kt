@@ -1,6 +1,6 @@
-package com.ginacuida.auth.config
+package com.eloaca.autenticacaoBasica.config
 
-import com.ginacuida.auth.service.UsersService
+import com.eloaca.autenticacaoBasica.service.UsersService
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority
 import org.springframework.security.core.userdetails.User

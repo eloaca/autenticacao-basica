@@ -1,4 +1,4 @@
-package com.ginacuida.auth
+package com.eloaca.autenticacaoBasica
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

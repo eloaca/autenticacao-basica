@@ -1,6 +1,6 @@
-package com.ginacuida.auth.rs.v1.controller
+package com.eloaca.autenticacaoBasica.rs.v1.controller
 
-import com.ginacuida.auth.config.security.model.enums.EPerfil
+import com.eloaca.autenticacaoBasica.config.security.model.enums.EPerfil
 import org.springframework.http.ResponseEntity
 import org.springframework.security.access.prepost.PreAuthorize
 import org.springframework.web.bind.annotation.GetMapping

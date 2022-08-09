@@ -1,9 +1,9 @@
-package com.ginacuida.auth.service
+package com.eloaca.autenticacaoBasica.service
 
-import com.ginacuida.auth.config.security.model.entity.Roles
-import com.ginacuida.auth.config.security.model.entity.Users
-import com.ginacuida.auth.config.security.model.enums.EPerfil
-import com.ginacuida.auth.config.security.model.repository.UsersRepository
+import com.eloaca.autenticacaoBasica.config.security.model.entity.Roles
+import com.eloaca.autenticacaoBasica.config.security.model.entity.Users
+import com.eloaca.autenticacaoBasica.config.security.model.enums.EPerfil
+import com.eloaca.autenticacaoBasica.config.security.model.repository.UsersRepository
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Propagation
@@ -30,7 +30,7 @@ class UsersServiceBean(
     }
 
     private fun novoDataSqlDefault() : List<Users> {
-        val roles = Roles(null,EPerfil.USERS)
+        val roles = Roles(null, EPerfil.USERS)
         val roles2 = Roles(null, EPerfil.MANAGERS)
         val users = Users(null,"Eloa Cardozo", "eloaca", "eloaca", listOf(roles))
         val users2 = Users(null, "Admin", "admin", "admin", listOf(roles, roles2))
